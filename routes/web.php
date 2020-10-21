@@ -30,3 +30,5 @@ Route::get('/articles/{id}/edit', 'App\Http\Controllers\ArticleController@edit')
   ->name('articles.edit');
 Route::patch('/articles/{id}', 'App\Http\Controllers\ArticleController@update')
   ->name('articles.update');
+Route::delete('/articles/{id}', 'App\Http\Controllers\ArticleController@destroy')
+  ->name('articles.destroy');
