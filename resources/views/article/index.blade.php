@@ -17,5 +17,7 @@
         {{ Form::close() }}
     </div>
     <br>
-    {{ $articles->links() }}
+    <div class="container mt-4">
+        {{ $articles->links() }}
+    </div>
 @endsection
